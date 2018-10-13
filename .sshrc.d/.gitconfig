@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Yoshiki Shino
+	email = yoshiki.shino.tech@gmail.com
+[alias]
+	br = branch
+	st = status
+	co = checkout
+	ci = commit
+	log = log --oneline
+	hist = log --pretty=format:\\\"%h %ad | %s%d [%an]\\\" --graph --date=short
