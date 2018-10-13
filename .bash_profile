@@ -12,3 +12,6 @@ PS1='\[\033[36m\]\u@\H\[\033[0m\]\[\033[32m\]\w\[\033[0m\]:\[\033[35m\]$(git_bra
 
 #alias
 alias ls="ls -G"
+alias la="ls -A"
+alias ll="ls -l"
+alias lla="ls -Al"
